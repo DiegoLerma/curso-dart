@@ -63,5 +63,17 @@ $nombre2
     'nivel': 9000
   };
 
-  print(ironman['nivel']);
+  // print(ironman['nivel']);
+  // print(ironman[3]);
+
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll({
+    'nombre': 'Steve Rogers',
+    'poder': 'Suero de Super Soldado',
+    'nivel': 5000
+  });
+
+  Map<int, int> tabla = {1: 2, 3: 4, 5: 6, 7: 8, 9: 10};
+  print(tabla[10]);
 }
