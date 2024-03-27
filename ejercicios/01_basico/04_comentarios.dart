@@ -1,3 +1,9 @@
+/**
+ * Comentarios en Dart
+ * 
+ *  [creadoEn] : 27/03/2024
+ */
+
 main() {
   // Esta es una variable temporal que quiero definir
   /*
@@ -13,3 +19,7 @@ main() {
   ];
   */
 }
+
+/// Funcion para saludar
+/// Recibe un [nombre] y se concatena con el [mensaje]
+saludar(int nombre, int mensaje) {}
