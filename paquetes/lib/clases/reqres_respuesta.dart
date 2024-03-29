@@ -13,10 +13,10 @@ String reqResRespuestaToJson(ReqResRespuesta data) =>
     json.encode(data.toJson());
 
 class ReqResRespuesta {
-  int page;
-  int perPage;
-  int total;
-  int totalPages;
+  double page;
+  double perPage;
+  double total;
+  double totalPages;
   List<Persona> data;
   Support support;
 
